@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,500;1,200&display=swap");
+@import "variables.css";
 @import "reset.css";
-@import "status-bar.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
 body {
+  color: #2e363e;
   font-family: "Azeret Mono", monospace;
 }
