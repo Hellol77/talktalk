@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -20,6 +21,7 @@
 body {
   color: #2e363e;
   font-family: "Azeret Mono", monospace;
+  background-color: var(--main-purple);
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
